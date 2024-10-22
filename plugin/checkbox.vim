@@ -39,7 +39,7 @@ if exists('g:loaded_checkbox')
 endif
 
 if !exists('g:checkbox_states')
-  let g:checkbox_states = [' ', 'x']
+  let g:checkbox_states = [' ', 'x', '?', '-', '!']
 endif
 
 
